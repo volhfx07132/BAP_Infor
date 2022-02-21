@@ -1,0 +1,15 @@
+Caco: - Cong cu tuong tac menh me, dua tren nen tang web de cai thien tinh than dong doi va tinh than lam viec
+      - Thiet lap ke hoach cu the cho cac menber trong khong gian mang
+      - Tao ra luu do tu duy cho khong gian lam viec
+
+Backlog - Gui cho cong viec mach lac, khong bi pha vo
+        - Quan ly nhieu cong viec cung mot luc
+        - Theo doi thoi gian thuc te, the hien tinh minh bach cho tung cong viec
+
+TypeTalk - Tro chuyen cos the luu tru, 
+         - Ket noi voiw moi nguoi
+         - Co the record laij cuoc tro chuyen do
+         - Co the repost lai cau chuyen vua xong
+
+Nulpass - Ma hoa nguon du lieu cua minh de dao bao muc bao mat nhat dinh
+        - Co the mo rong  
