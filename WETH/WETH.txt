@@ -1,0 +1,8 @@
+What is WETH? 
+(Wrapped Ethereum)
+ 1: ETH KHÔNG PHÙ HỢP VỚI TIÊU CHUẨN ERC-20 CỦA RIÊNG NÓ.
+    + Như đã đề cập ở trên, ETH là tiền mã hóa của các mã thông báo Ethereum Alt, có nghĩa là nó được xây dựng trước khi tiêu chuẩn ERC-20 tồn tại.
+ 2: PHÉP BẠN ĐƯỢC GIAO DỊCH TRỰC TIẾP VỚI ALT TOKENS.
+    Vì các nền tảng phi tập trung chạy trên Ethereum sử dụng các hợp đồng thông minh để tạo điều kiện giao dịch trực tiếp giữa những người dùng,
+    nên mọi người dùng cần có cùng một định dạng chuẩn hóa cho mọi mã thông báo mà họ giao dịch. Điều này đảm bảo các mã thông báo không bị mất trong quá trình dịch.
+ 3:    

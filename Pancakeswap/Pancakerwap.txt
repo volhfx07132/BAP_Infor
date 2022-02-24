@@ -1,0 +1,8 @@
+PancakeSwap: 
+ +Giup ban tan dung toi da tien dien tu cua minh theo ba cach : trade, earn and win.
+ +Giups ban hoan doi tien ngay lap tuc ma khong can dang ki tai khoans.
+ +PancakeSwap la san giao dich phi tap trung hanh dau trenBNB Smart contract.
+ +Chi phi giao dich thap, thap hon ETN, Bitcoin, va cac san giao dich phi tap trung hang dau khac 
+ + your own crypto.
+Token PancakeSwap: 
+  + BEP20
