@@ -5,3 +5,7 @@
 +Bộ chọn hàm là 4 byte đầu tiên trong hàm băm của nguyên mẫu của hàm.
 +Một nguyên mẫu hàm được định nghĩa là tên của hàm và các loại đối số của nó theo thứ tự.
 +Cho phép bạn gọi một hàm mà không cần biết kiểu giá trị trả về chính xác của nó
+3: EncodePackage
++Laf một chế độ đóng gói không theo tiêu chuẩn 
++các loại ngắn hơn 32 byte không được đệm bằng không cũng như không được mở rộng dấu và.
++loại động được mã hóa tại chỗ và không có độ dài. các phần tử mảng được đệm, nhưng vẫn được mã hóa tại chỗ.
