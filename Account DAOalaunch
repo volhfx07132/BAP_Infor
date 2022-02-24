@@ -1,3 +1,8 @@
 https://daolaunch.net/beta2/
 user: doge
 pass: kemEv5u1LrZS5aa6iXFH
+
+Create Token in DAOLaunch
+    Token Name: BoxToken;
+    symbol: BOXT;
+    swap:1 ETH = 1000 BOXT;
