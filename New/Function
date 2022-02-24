@@ -1,0 +1,4 @@
+Kể từ Solidity 0.6.0, các từ khóa virtualvà overridecó sẵn trong Solidity để ghi đè chức năng . 
+Mục đích của những từ khóa này là rõ ràng hơn khi ghi đè một hàm. 
+Các hàm cơ sở có thể được ghi đè bằng cách kế thừa các hợp đồng để thay đổi hành vi của chúng.
+Nếu chúng được đánh dấu là virtual. Sau đó, hàm ghi đè phải sử dụng overridetừ khóa trong tiêu đề hàm.
