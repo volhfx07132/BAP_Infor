@@ -22,3 +22,12 @@ UniswapV2Locker.sol
                      - ví dụ : IMigrator.sol, IUniswapV2Factory.sol trong contract UniswapV2Locker.sol thì em vẫn chưa rõ.
                    + ngoài ra còn một số vấn đề như function claimForId trong DaolaunchTokenMetrics.sol em vẫn hiểu mục đích sử đụng hàm này(Nhưng khi đọc code
                      thì em vẫn hiểu được một ít nhưng chưa đủ) và nhờ anh giải thích rõ hơn ạ.
+
+Q2:     
+(bool success, bytes memory data) = token.call(
+            abi.encodeWithSelector(0xa9059cbb, to, value)
+        );
+        require(
+            success && (data.length == 0 || abi.decode(data, (bool))),
+            "TransferHelper: TRANSFER_FAILED"
+        );
