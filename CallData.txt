@@ -1,2 +1,7 @@
-calldata là một vị trí dữ liệu đặc biệt có chứa các đối số của hàm, chỉ khả dụng cho các tham số lệnh gọi hàm bên ngoài 
-Calldata là một vùng không thể sửa đổi, không liên tục, nơi các đối số hàm được lưu trữ và hoạt động chủ yếu giống như bộ nhớ
+1: Calldata
+   Calldata là một vị trí dữ liệu đặc biệt có chứa các đối số của hàm, chỉ khả dụng cho các tham số lệnh gọi hàm bên ngoài 
+   Calldata là một vùng không thể sửa đổi, không liên tục, nơi các đối số hàm được lưu trữ và hoạt động chủ yếu giống như bộ nhớ
+2: EncodeWithSelector  
++Bộ chọn hàm là 4 byte đầu tiên trong hàm băm của nguyên mẫu của hàm.
++Một nguyên mẫu hàm được định nghĩa là tên của hàm và các loại đối số của nó theo thứ tự.
++Cho phép bạn gọi một hàm mà không cần biết kiểu giá trị trả về chính xác của nó
