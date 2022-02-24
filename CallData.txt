@@ -1,0 +1,2 @@
+calldata là một vị trí dữ liệu đặc biệt có chứa các đối số của hàm, chỉ khả dụng cho các tham số lệnh gọi hàm bên ngoài 
+Calldata là một vùng không thể sửa đổi, không liên tục, nơi các đối số hàm được lưu trữ và hoạt động chủ yếu giống như bộ nhớ

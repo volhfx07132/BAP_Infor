@@ -1,0 +1,24 @@
+DaolaunchERC20.sol: đã hiểu 
+DaolaunchTokenMetrics.sol 
+       + updateTokenMetric: sngười gửi phải chấp thuận ký hợp đồng với số tiền chính xác trước khi gọi hàm này
+       + claimForId: 
+PresaleGenerator01.sol
+       + Tạo một hợp đồng Presale mới và đăng ký nó trong PresaleFactory.sol.
+UniswapV2Locker.sol
+       + setMigrator: thiết lập hợp đồng di chuyển cho phép di chuyển mã thông báo lp bị khóa sang uniswap v3
+       + setReferralTokenAndHold: Người giới thiệuthông báo cần nắm giữ mã thông báo và số tiền nắm giữ được chỉ định để có thể thanh toán phí giới thiệu
+       + whitelistFeeAccount: thong bao các tài khoản có trong danh sách trắng không trả phí cố định khi khóa
+       + lockLPToken: Tạo khóa mới (địa chỉ mã thông báo, số lượng mã thông báo LP cần khóa, timestamp, người dùng có thể rút thanh khoản sau khi khóa hết hạn.)
+       + relock: mở rộng khóa với ngày mở khóa mới, _index và _lockID đảm bảo thay đổi đúng khóa, điều này ngăn ngừa lỗi khi người dùng thực hiện nhiều tx trên mỗi khối có thể với giá khí đốt khác nhau
+       + withdraw: rút một số tiền được chỉ định từ khóa. _index và _lockID đảm bảo thay đổi đúng khóa,
+       + incrementLock: thông báo tăng số lượng mã thông báo cho mỗi một khóa cụ thể, điều này thích hợp hơn để tạo một khóa mới, ít phí hơn và tải nhanh hơn
+       + splitLock: chia một ổ khóa thành hai ổ khóa riêng biệt, hữu ích khi một ổ khóa sắp hết hạn và bạn muốn khóa lại một phần và rút số dư
+       + transferLockOwnership : thông báo chuyển khóa cho chủ sở hữu mới
+       + migrate: chuyển tính thanh khoản sang uniswap v3
+
+=> Hiện tại thì em đã tỉm hiểu được 4(DaolaunchERC20.sol, DaolaunchTokenMetrics.sol, PresaleGenerator01.sol, UniswapV2Locker.sol) contract, Mỗi một contract (biến, chức năng) thông quan các doạn code, và hiểu được cách thức tính toán của nó áp đụng của nó 
+   Nhưng chưa hiểu + Đúng bản chất và các yêu cầu của mỗi smart contract.
+                   + Em chỉ đọc chưa được thực áp dụng, nhiều hợp đồng import từ hợp đồng khác (trừ import openzeppelin thì em đã tìm hiểu trên internet)
+                     - ví dụ : IMigrator.sol, IUniswapV2Factory.sol trong contract UniswapV2Locker.sol thì em vẫn chưa rõ.
+                   + ngoài ra còn một số vấn đề như function claimForId trong DaolaunchTokenMetrics.sol em vẫn hiểu mục đích sử đụng hàm này(Nhưng khi đọc code
+                     thì em vẫn hiểu được một ít nhưng chưa đủ) và nhờ anh giải thích rõ hơn ạ.
