@@ -1,8 +1,9 @@
-What is Uniswap ?.
+------What is Uniswap ?.
 Uniswap Labs: Công ty đã phát triển giao thức Uniswap, cùng với giao diện web.
 Giao thức Uniswap là một hệ thống ngang hàng 1 được thiết kế để trao đổi tiền điện tử ( ERC-20 Tokens ) trên chuỗi khối Ethereum .
 Giao thức được thực hiện dưới dạng một tập hợp các hợp đồng thông minh bền bỉ, không thể nâng cấp; được thiết kế để ưu tiên khả năng chống kiểm duyệt,
 bao mật, tự quản lý và hoạt động mà không có bất kỳ trung gian đáng tin cậy nào có thể hạn chế quyền truy cập một cách có chọn lọ
-
-
---------------------SMART CONTRACT---------------------------------
+Là quyền gửi giao dịch phê duyệt để cho phép dApp sử dụng và chi tiêu mã thông báo của bạn . Ví dụ: Uniswap yêu cầu bạn sử dụng DAI để hoán đổi DAI lấy một số mã thông báo khác
+------PERMIT TYPEHASH
+Là băm của tên hàm (viết hoa) và tất cả các tham số bao gồm kiểu và tên .
+ Mục đích của nó là xác định rõ chức năng nào là chữ ký. Chữ ký sẽ được xử lý trong hàm giấy phép và nếu PERMIT_TYPEHASH.
