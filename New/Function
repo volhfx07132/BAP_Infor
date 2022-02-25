@@ -1,4 +1,10 @@
++virtual
 Kể từ Solidity 0.6.0, các từ khóa virtualvà overridecó sẵn trong Solidity để ghi đè chức năng . 
 Mục đích của những từ khóa này là rõ ràng hơn khi ghi đè một hàm. 
 Các hàm cơ sở có thể được ghi đè bằng cách kế thừa các hợp đồng để thay đổi hành vi của chúng.
 Nếu chúng được đánh dấu là virtual. Sau đó, hàm ghi đè phải sử dụng overridetừ khóa trong tiêu đề hàm.
++unchecked
+Lý do từ khóa "không được kiểm tra" tồn tại là để cho phép các nhà phát triển Solidity viết các chương 
+trình hiệu quả hơn. Hành vi "đã kiểm tra" mặc định tốn nhiều xăng hơn khi thêm / lặn / nhân, vì ẩn những 
+kiểm tra đó được triển khai dưới dạng một loạt mã opcode, trước khi thực hiện phép tính thực tế, hãy kiểm
+tra thiếu / tràn và hoàn nguyên nếu có được phát hiện.
