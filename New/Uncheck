@@ -1,0 +1,6 @@
+UnCheck:
+        +Trước Solidity 0.8.0, các phép toán số học sẽ luôn bao gồm trong trường hợp thiếu hoặc tràn dẫn đến 
+            việc sử dụng rộng rãi các thư viện giới thiệu các kiểm tra bổ sung.
+        +Kể từ Solidity 0.8.0, tất cả các phép toán số học đều hoàn nguyên về dòng thừa và dòng dưới theo mặc
+            định, do đó, việc sử dụng các thư viện này không cần thiết.       
+         
