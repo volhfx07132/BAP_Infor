@@ -1,0 +1,3 @@
+Nonse: Số nonce được xem là con số mà các thợ đào phải tìm ra để có thể nhận các loại tiền mã hóa.
+       Cụ thể, trong hoạt động Mining thì thợ đào sẽ tìm một số Nonce để thêm vào hàm băm (Hash).
+       Sau khi tìm ra họ sẽ được mạng lưới phát cho phần thưởng là một số coin nhất định,
