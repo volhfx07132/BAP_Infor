@@ -6,4 +6,4 @@ bao mật, tự quản lý và hoạt động mà không có bất kỳ trung gi
 Là quyền gửi giao dịch phê duyệt để cho phép dApp sử dụng và chi tiêu mã thông báo của bạn . Ví dụ: Uniswap yêu cầu bạn sử dụng DAI để hoán đổi DAI lấy một số mã thông báo khác
 ------PERMIT TYPEHASH
 Là băm của tên hàm (viết hoa) và tất cả các tham số bao gồm kiểu và tên .
- Mục đích của nó là xác định rõ chức năng nào là chữ ký. Chữ ký sẽ được xử lý trong hàm giấy phép và nếu PERMIT_TYPEHASH.
+Mục đích của nó là xác định rõ chức năng nào là chữ ký. Chữ ký sẽ được xử lý trong hàm giấy phép và nếu PERMIT_TYPEHASH.
