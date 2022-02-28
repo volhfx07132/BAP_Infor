@@ -1,0 +1,3 @@
+Sync: Synchronization có nghĩa là đồng bộ hóa dữ liệu
+      +Cụ thể là quá trình thực hiện trao đổi cũng như đồng bộ thông tin giữa 2 nguồn dữ liệu theo trình tự thời gian.
+      +Nói một cách dễ hiểu, đồng bộ hóa chính là sự trao đổi, lưu trữ thông tin trên một thiết bị khác so với máy chủ. 
