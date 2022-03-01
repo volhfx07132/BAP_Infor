@@ -1,0 +1,2 @@
+Một chức năng cho phép hợp đồng kế thừa ghi đè hành vi của nó sẽ được đánh dấu là ảo . 
+Hàm ghi đè hàm cơ sở đó nên được đánh dấu là ghi đè.
