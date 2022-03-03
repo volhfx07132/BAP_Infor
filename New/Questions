@@ -1,2 +1,8 @@
 What is PRESALE_IN_ETH in PrewsaleInfor Struct?
 What is ADD_LP in listOnUniswap function?
+    Có 3 giá trị ở biến này 
+    0: smart contract (Dùng smart contrat)
+    1: only distribution (chỉ phân phối)
+    2: off-chain (Giao dịch ngoài chuỗi đề cập đến những giao dịch xảy
+       ra trên một mạng lưới tiền điện tử di chuyển giá trị ra bên ngoài
+       chuỗi khối .)
