@@ -5,4 +5,8 @@ What is WETH?
  2: PHÉP BẠN ĐƯỢC GIAO DỊCH TRỰC TIẾP VỚI ALT TOKENS.
     Vì các nền tảng phi tập trung chạy trên Ethereum sử dụng các hợp đồng thông minh để tạo điều kiện giao dịch trực tiếp giữa những người dùng,
     nên mọi người dùng cần có cùng một định dạng chuẩn hóa cho mọi mã thông báo mà họ giao dịch. Điều này đảm bảo các mã thông báo không bị mất trong quá trình dịch.
- 3:    
+ 3: Các đồng tiền được bọc giải quyết một vấn đề cụ thể: do khả năng tương tác thấp của các chuỗi khối, các đồng tiền gốc của một chuỗi không thể được sử dụng trên chuỗi khác. 
+     Ví dụ: bạn không thể sử dụng Bitcoin trên chuỗi khối Ethereum và bạn không thể sử dụng Ether trên Bitcoin hoặc Avalanche . Việc gói tiền giải quyết vấn đề này bằng cách
+     mã hóa chúng và áp dụng tiêu chuẩn mã thông báo của blockchain cho phiên bản mã hóa của tiền điện tử gốc. 
+ 4: Ethereum Wrapper (wETH) được phát triển để tăng khả năng tương tác giữa các blockchains và làm cho Ether có thể sử dụng được trong các ứng dụng phi tập trung ( dApps ).    
+ 5: Ethereum Wrapper (wETH) trên một blockchain khác cho phép các nhà đầu tư giao dịch Ether với chi phí thấp hơn nhiều.

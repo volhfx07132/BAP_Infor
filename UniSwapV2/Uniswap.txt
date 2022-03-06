@@ -7,3 +7,5 @@ Là quyền gửi giao dịch phê duyệt để cho phép dApp sử dụng và 
 ------PERMIT TYPEHASH
 Là băm của tên hàm (viết hoa) và tất cả các tham số bao gồm kiểu và tên .
 Mục đích của nó là xác định rõ chức năng nào là chữ ký. Chữ ký sẽ được xử lý trong hàm giấy phép và nếu PERMIT_TYPEHASH.
+Swap các Token ERC20 nhanh chóng và dễ dàng.
+Đóng góp vào liquidity pools cho bất kỳ ERC20 Token nào và nhận được hoa hồng dưới dạng Fee Swap.

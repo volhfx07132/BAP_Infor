@@ -6,3 +6,4 @@ What is ADD_LP in listOnUniswap function?
     2: off-chain (Giao dịch ngoài chuỗi đề cập đến những giao dịch xảy
        ra trên một mạng lưới tiền điện tử di chuyển giá trị ra bên ngoài
        chuỗi khối .)
+3:  PRESALE_INFO.PRESALE_IN_ETH = address(_baseToken) == address(WETH) in init2;
