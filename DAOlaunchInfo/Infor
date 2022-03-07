@@ -1,0 +1,23 @@
+DAOLaunch:
+1: Chúng tôi là nền tảng phi tập trung bằng cách giới thiệu các giải pháp gây quỹ sáng tạo cho hệ sinh thái khởi nghiệp.
+   DAOlaunch sẽ đảm bảo phân bổ và cũng cho phép các nhà đầu tư nhận được các điều kiện đầu tư thuận lợi như giá mã thông báo tốt, tùy thuộc vào hiệu suất đầu tư của họ.
+2: Tính năng
+        Tạo mã thông báo cho người không phải là nhà phát triển
+        Gây quỹ phi tập trung
+        Khả năng tương tác chuỗi chéo
+        Niêm yết an toàn & cung cấp thanh khoản từ quỹ huy động được, thanh khoản tự động khóa bằng hợp đồng thông minh
+        Nắp mềm tự động trả lại
+        Các tính năng trong danh sách trắng
+        Phân phối mã thông báo với thời gian kiểm tra bằng hợp đồng thông minh
+        Các tính năng của Multiplie Tokensale
+        Hiển thị Tokenmetrics PieChart dựa trên ngày chuỗi khối
+        Thiết kế linh hoạt / chức năng cao độ
+        Cho phép người dùng tạo NFT đơn / nhiều NFT, Xây dựng trang trại NFT của riêng họ
+        Thị trường Farm / Trade NFT
+3: Có rất nhiều nền tảng cũng đang cố gắng tìm ra phương pháp tài trợ cho startup dân chủ nhưng đây là khái niệm / cách tiếp cận ban đầu của chúng tôi để đạt được điều đó.        
+4: Quick overview of NFT farm function
+   + Chọn mã thông báo đặt cược để trang trại NFT, bất kỳ mã thông báo ERC-20 nào sẽ có thể được sử dụng làm tiền tệ đặt cược, thậm chí là mã thông báo LP.
+   + Sau khi bạn đặt mã thông báo đặt cược, bạn phải thêm NFT của mình vào trang trại NFT.
+   + Sau đó, bạn phải đặt các thông số bắt buộc của nhóm, bao gồm cả thời lượng và phần thưởng. (Điểm được tính bằng bao nhiêu mã thông báo X đã đặt cọc trong bao lâu)
+   + Tính linh hoạt cao khi thiết lập Điểm nuôi. Việc khởi động có thể đặt tiền bản quyền, ngày bắt đầu / kết thúc trang trại và số tiền được thêm vào trang trại.
+   + Các thông số của DAOLaunch’s NFT Farms rất linh hoạt, bạn có thể thiết kế, triển khai và mở rộng NFT Farm của mình theo ý muốn.
