@@ -9,3 +9,8 @@
 +Laf một chế độ đóng gói không theo tiêu chuẩn 
 +các loại ngắn hơn 32 byte không được đệm bằng không cũng như không được mở rộng dấu và.
 +loại động được mã hóa tại chỗ và không có độ dài. các phần tử mảng được đệm, nhưng vẫn được mã hóa tại chỗ.
+4: CalllStatic
++ Để thực thi các cuộc gọi chỉ đọc trong thời gian chạy.
++ STATICCALL cho phép tránh được một tập hợp con các lỗ hổng gần đây:
+  nếu trạng thái của hợp đồng thay đổi phụ thuộc vào việc đọc dữ liệu từ hợp đồng khác,
+  nó có thể truy xuất nó một cách an toàn mà không bao giờ kích hoạt thay đổi trạng thái xung đột.
