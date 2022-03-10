@@ -1,0 +1,3 @@
+ABIEncoderV2 Bộ mã hóa ABI mới có thể mã hóa và giải mã các mảng và cấu trúc lồng nhau tùy ý .
+   Nó có thể tạo ra mã kém tối ưu hơn và không nhận được nhiều thử nghiệm như bộ mã hóa cũ,
+   nhưng được coi là không thử nghiệm kể từ Solidity 0.6.0.
