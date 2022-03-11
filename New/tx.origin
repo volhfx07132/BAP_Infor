@@ -1,0 +1,7 @@
+Với msg.senderchủ sở hữu có thể là một hợp đồng.
+
+Với tx.originchủ sở hữu không bao giờ có thể là một hợp đồng.
+
+msg.sendercung cấp cho người gửi trực tiếp tin nhắn, chẳng hạn như một hợp đồng đã thông qua nó.
+
+tx.origincung cấp nguồn gốc của các giao dịch, vì vậy địa chỉ người dùng mà nó được gửi ban đầu. Trong thực tế, điều này sẽ luôn là người dùng nên câu trả lời của eth đúng.
