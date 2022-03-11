@@ -1,0 +1,30 @@
+// The Receive Fallback Functio
+// Trước Solidity 0.6, hàm dự phòng chỉ đơn giản là một hàm ẩn danh trông như thế này:
+// function () external {
+
+// }
+// Bây giờ nó có hai chức năng khác nhau. receive()đếnnhận đượctiền và fallback()chỉ tương tác với Hợp đồng thông minh mà không cần nhận Ether. Ví dụ này sử dụng phiên bản cập nhật.
+// //SPDX-License-Identifier: MIT
+
+pragma solidity 0.8.3;
+
+contract FunctionsExample {
+
+    mapping(address => uint) public balanceReceived;
+
+    function receiveMoney() public payable {
+        assert(balanceReceived[msg.sender] + msg.value >= balanceReceived[msg.sender]);
+        balanceReceived[msg.sender] += msg.value;
+    }
+
+    function withdrawMoney(address payable _to, uint _amount) public {
+        require(_amount <= balanceReceived[msg.sender], "not enough funds.");
+        assert(balanceReceived[msg.sender] >= balanceReceived[msg.sender] - _amount);
+        balanceReceived[msg.sender] -= _amount;
+        _to.transfer(_amount);
+    } 
+
+    receive() external payable {
+        receiveMoney();
+    }
+}
