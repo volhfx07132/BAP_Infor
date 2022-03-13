@@ -1,0 +1,4 @@
+ChainID là gì?
+ChainID là một cách bổ sung để phân biệt các chuỗi . 
+        Sau EIP-155, ETH có chainID là 1, trong khi ETC có chainID là 61.d 
+        networkID và chainID là bắt buộc để chuỗi hoạt động nói chung - ví dụ: nó được yêu cầu khi ký kết các giao dịch.
