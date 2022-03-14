@@ -1,0 +1,18 @@
++Một dự án có giao thức cho phép truy vấn các mạng như Ethereum (ETH) và Hệ thống tệp InterPlanetary
+   Giao thức thực hiện truy vấn và thu thập dữ liệu mà không có bất kỳ tương tác nào với bên thứ ba
++1: The graph để truy vấn các mạng như Ethereum và IPFS. 
+    Bất kỳ ai cũng có thể xây dựng và xuất bản các API mở, được gọi là đồ thị con, 
+    giúp dữ liệu dễ dàng truy cập.
+ + Truy vấn dữ liệu từ các blockchain (tổng hợp, tìm kiếm, mối quan hệ).
+ + Giúp truy xuất ngoài dữ liệu cơ bản trực tiếp từ blockchain tốt hơn\
+ + Chỉ mục dữ liệu từ các blockchain đã trở thành một vấn đề lớn khi ngày càng có nhiều
+     (để đọc hoặc truy cập dữ liệu từ các dự án có hợp đồng thông minh phứ)
+2: Vai trò
+Người tiêu dùng: Người dùng trả tiền cho Người lập chỉ mục cho các tìm kiếm của họ được gọi là người tiêu dùng. Người tiêu dùng là các dịch vụ web hoặc phần mềm sử dụng Đồ thị.
+Bộ lập chỉ mục: Bộ lập chỉ mục là toán tử nút của Đồ thị. Chúng được khuyến khích để lập chỉ mục dữ liệu trên nền tảng.
+Người ủy quyền: Người ủy quyền thường gửi cổ phiếu vào Indexers để đóng góp vào mạng lưới. Họ không chạy các nút với tư cách Người lập chỉ mục nhưng có thể tham gia vào các nút hiện có để kiếm một phần phí của nút.
+Người quản lý : Vai trò của người quản lý là quyết định nguồn dữ liệu có đáng tin cậy hay không.
+3: Điểm mạnh
++ Không cần biên trung gian lưu trữ duc liệu
++Tính linh hoạt : Sử dụng các đồ thị con do The Graph cung cấp, các nhà phát triển dApp có thể truy cập dữ
++ liệu có liên quan mà không cần phải xây dựng các dịch vụ truy vấn của riêng họ hoặc chỉ bị giới hạn ở những gì bên thứ ba cung cấp
