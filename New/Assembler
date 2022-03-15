@@ -1,0 +1,13 @@
++: Hợp ngữ hoặc ngôn ngữ Assembler chỉ ra một ngôn ngữ lập trình cấp thấp có thể được chuyển đổi thành mã máy bằng
+    cách sử dụng trình hợp dịch. Hợp ngữ được gắn với máy vật lý hoặc máy ảo vì việc triển khai của chúng là một
+    tập lệnh và các lệnh này yêu cầu CPU thực hiện tác vụ cơ bản đó như thêm hai số.
++: Assembly cung cấp nhiều quyền kiểm soát hơn đối với một số logic không thể thực hiện được nếu chỉ sử dụng solidity, như trỏ đến khối bộ nhớ cụ thể. 
+
++mstore(0x80, c)
+ let clone := mload(0x40)
+      mstore(clone, 0x3d602d80600a3d3981f3363d3d373d3d3d363d73000000000000000000000000)
+      mstore(add(clone, 0x14), targetBytes)
+      mstore(add(clone, 0x28), 0x5af43d82803e903d91602b57fd5bf30000000000000000000000000000000000)
+      => // Sử dụng opcode 'mstore' để
+         // lưu trữ 'c' trong bộ nhớ
+         // tại địa chỉ bộ nhớ 0x80
