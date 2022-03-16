@@ -1,1 +1,4 @@
-Mã opcode CREATE2 được giới thiệu sau đó và cho phép bạn xác định trước địa chỉ hợp đồng . Địa chỉ hợp đồng được tính như thế này.
+Mã opcode CREATE2 
++ Được giới thiệu sau đó và cho phép bạn xác định trước địa chỉ hợp đồng .
+   Địa chỉ hợp đồng được tính như thế này.
++ Nó cho phép các hợp đồng được triển khai tại cùng một địa chỉ trên tất cả các mạng.
