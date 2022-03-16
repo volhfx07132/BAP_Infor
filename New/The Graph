@@ -16,3 +16,19 @@ Người quản lý : Vai trò của người quản lý là quyết định ngu
 + Không cần biên trung gian lưu trữ duc liệu
 +Tính linh hoạt : Sử dụng các đồ thị con do The Graph cung cấp, các nhà phát triển dApp có thể truy cập dữ
 + liệu có liên quan mà không cần phải xây dựng các dịch vụ truy vấn của riêng họ hoặc chỉ bị giới hạn ở những gì bên thứ ba cung cấp
+--------------------------------------------------------------------------------------------------------------------------------
+1: Nói lời tạm biệt với các máy chủ tùy chỉnh
+Trước The Graph, các nhóm phải phát triển và vận hành các máy chủ lập chỉ mục độc quyền. 
+Điều này đòi hỏi tài nguyên kỹ thuật và phần cứng đáng kể và phá vỡ các thuộc tính bảo mật quan trọng cần thiết cho phân quyền.
+2: Web3 là một ngăn xếp mới cho một mạng internet tốt hơn hoàn toàn
+Tất cả dữ liệu được lưu trữ và xử lý trên các mạng mở với tính toàn vẹn có thể kiểm chứng được. 
+Biểu đồ giúp truy vấn dữ liệu này nhanh chóng, đáng tin cậy và an toàn.* Sắp có dữ liệu được mã hóa
+3: Rất nhiều thứ đang được xây dựng
+Các doanh nhân đang tạo ra các ứng dụng cấp độ tiếp theo để mở rộng quy mô phối hợp giữa con người với nhau trên internet. Đó là một biên giới mới và chúng tôi chỉ mới bắt đầu
+4: Trên nền tảng trung lập được chia sẻ
+Bằng cách kết hợp các giao thức web3, các nhà phát triển có thể xây dựngdappsvớicác tính năng mới mạnh mẽđể giải quyết những thách thức lớn nhất của thế giới.
+5: Mạng được hỗ trợ
+Các chuỗi sau được hỗ trợ. Ngoài Ethereum, The Graph đang bổ sung hỗ trợ cho The Graph Network với các chuỗi tương thích NEAR và EVM. Điều này có nghĩa là
+các đồ thị con có thể được xây dựng trên các chuỗi để các nhà phát triển có nhiều lựa chọn hơn về vị trí triển khai các hợp đồng thông minh của họ.
+6: Mạng đồ thị
+Một mạng mở tạo ra cách nhanh nhất, rẻ nhất, đáng tin cậy nhất để truy cập dữ liệu cho nền kinh tế tiền điện tử.
