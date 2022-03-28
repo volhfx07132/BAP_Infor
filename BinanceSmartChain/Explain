@@ -1,0 +1,16 @@
+5:23 PM
+I: Binance Smart Chain
++ Bản chất chất của Binance Smart Chain là nhân bản blockchain của Ethereum khởi tạo chuỗi khối 
+bằng kết hợp hai thuật toán bằng chứng cổ phần (Proof of Stake) và thuật toán bằng chứng ủy quyền (Proof of Authority).
+Thiết kế này cho phép khả năng tương thích chuỗi chéo (cross-chain) đồng thời từ cả ba mạng BCS, BNB và Ethereum.
++ Proof of Authority(POA)
+  Là thuật toán được xác thực dựa và danh tiếng của mình mà không phải đựa vào số cổ phần mà mình có (Microsoft Azure: 
+  cung cấp giải pháp cho các mạng riêng tư với một hệ thống không cần sử dụng một loại tiền tệ riêng như ‘gas’, vì hệ
+  thống đó không yêu cầu hoạt động đào.
+)
+Điều Kiện: 
+   + Danh tính hợp lệ và đáng tin cậy: người xác thực cần xác nhận danh tính thực của mình.    
+   + Sự khó khăn để trở thành người xác thực: ứng viên phải sẵn sàng đầu tư tiền và chấp nhận rủi ro với danh tiếng của mình.  
+   + Tiêu chuẩn để phê duyệt người xác thực: phương thức sử dụng để lựa chọn người xác thực phải công bằng cho mọi ứng viên. 
+Khó khăn: 
+   + Kẻ xấu: có thể thấy danh tính của những người xác thực trong hệ thống PoA
