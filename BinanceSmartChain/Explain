@@ -1,4 +1,3 @@
-5:23 PM
 I: Binance Smart Chain
 + Bản chất chất của Binance Smart Chain là nhân bản blockchain của Ethereum khởi tạo chuỗi khối 
 bằng kết hợp hai thuật toán bằng chứng cổ phần (Proof of Stake) và thuật toán bằng chứng ủy quyền (Proof of Authority).
@@ -8,9 +7,33 @@ Thiết kế này cho phép khả năng tương thích chuỗi chéo (cross-chai
   cung cấp giải pháp cho các mạng riêng tư với một hệ thống không cần sử dụng một loại tiền tệ riêng như ‘gas’, vì hệ
   thống đó không yêu cầu hoạt động đào.
 )
-Điều Kiện: 
+
++Điều Kiện: 
    + Danh tính hợp lệ và đáng tin cậy: người xác thực cần xác nhận danh tính thực của mình.    
    + Sự khó khăn để trở thành người xác thực: ứng viên phải sẵn sàng đầu tư tiền và chấp nhận rủi ro với danh tiếng của mình.  
    + Tiêu chuẩn để phê duyệt người xác thực: phương thức sử dụng để lựa chọn người xác thực phải công bằng cho mọi ứng viên. 
-Khó khăn: 
++Khó khăn: 
    + Kẻ xấu: có thể thấy danh tính của những người xác thực trong hệ thống PoA
+
++Mục Tiêu: Mục tiêu thiết kế BSC là giữ nguyên thông lượng cao của Binance Chain đồng thời có thể đưa các hợp đồng thông minh của
+          vào hệ sinh thái của Binance Chain. 
+
++Sàn giao dịch: Với Binance Smart Chain (BSC), đây là một môi trường phi tập trung cho phép các bên thứ 3 có thể phát triển sản
+               phẩm trên mạng lưới của mình. Lợi thế của BSC là nó được xây dựng trên EVM của Ethereum, chính vì thế, nhà phát
+               triển và cả người dùng rất dễ dàng chuyển tài sản sang sử dụng ở BSC.    
+               + AMM Liquidity: Pancakeswap, Bakeryswap, Ellipsis Finance,...
+               + Lending: Venus, Alpha Finance, Alpaca Finance,...
+               + Launchpad: Pancakeswap, Polkastarter, KickPad,...
+               + Yield Aggregator: Beefy Finance, PancakeBunny, Autofarm,...
+               + NFT: Bakeryswap, Dego Finance, Treasureland,...    
+
++ Bep20
+  - Là một tiêu chuẩn của các token chạy trên Binance Smart Chain BSC. Bạn có thể coi nó như một tiêu chuẩn cho các token. 
+  Nó xác định cách chúng được sử dụng, ai có thể sử dụng chúng và các quy tắc khác để sử dụng chúng.
+  - Bep20 là đại diện cho các mã thông báo trên Binance Smart Chain, nó tương tự với Trc20 của mạng TRON hay Erc20 của các token chạy trên nền tảng Ethereum.
+  - Các nhà phát triển nhận thấy nó rất linh hoạt và hiệu quả trong việc triển khai các mã thông báo có thể thay thế được, có thể được sử dụng cho nhiều mục đích bao gồm cả stablecoin .
+  - Trong khi BEP-20 được xây dựng trên Chuỗi thông minh Binance (BSC), thì mã thông báo ERC-20 được xây dựng trên chuỗi khối Ethereum. Tuy nhiên, chúng cũng
+    khá giống nhau về chức năng. Mã thông báo BEP-20 thực sự tương thích với ERC-20 và có thể được hoán đổi với nó một cách dễ dàng.
+  - BEP20 đặt ra các quy tắc mà tất cả các mã thông báo được tạo trên BSC cần phải tuân theo.   
+  - PancakeSwap là một trong những thành công lớn nhất của dApp trên hệ sinh thái binance smart chain
+  - Một số mã thông báo được tạo ra từ tiêu chuẩn BEP20
