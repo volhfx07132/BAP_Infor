@@ -4,3 +4,17 @@ Validator: + Trình xác thực blockchain là người chịu trách nhiệm x�
              thuận bao gồm xác minh các giao dịch và thêm các khối mới vào chuỗi khối.
            + Người xác nhận là những người vận hành nút, mỗi người lưu trữ một bản sao của chuỗi khối và
              phải thực hiện các chức năng nhất định để giữ an toàn cho hệ thống.
+Cross-Chain: Cross-chain là giải pháp mới giúp đỡ hoạt động chuyển tài sản tiền điện tử, tokens,
+dữ liệu từ blockchain này sang blockchain khác (các blockchain có cấu trúc khác nhau).
+Hiểu nôm na, ở Anh không tiêu được tiền Nhật Bản, bởi vậy cần có 1 “người thứ 3”
+Hiện tại, nó được coi là giải pháp để tăng cường khả năng tương tác giữa các blockchain
+Cross-chain cho phép các blockchain có thể “nói chuyện” với nhau để trao đổi thông tin
+  với nhau để người dùng có thể tận hưởng đầy đủ lợi ích của các công nghệ blockchain khác nhau.
++Cach thuc hoat dong: Cách thức hoạt động của phiên bản tiên tiến này cũng khác biệt. Đối với blockchain 
+ta sẽ wrap token ở mạng lưới này để trở thành token có thể sử dụng ở mạng lưới kia.  
+Người A muốn gửi ETH lên mạng Bitcoin. Lúc này người A cần wrap ETH thành wBTC và sử dụng trên mạng lưới Ethereum.
+Uu Diem:nhờ sự tương tác qua lại giữa các blockchain với nhau, một lượng lớn thanh khoản có thể dễ dàng được tạo
+  ra và di chuyển linh hoạt trong các nền tảng blockchain. Nhờ đó, các token có thể trao đổi nhanh chóng, đơn giản hơn.  
+Nhuoc Diem:
++Các blockchain riêng lẻ cũng chỉ dừng lại ở mức độ khắc phục những tồn động và không thể toàn diện đi sâu vào mọi lĩnh
+  vực trong đời sống, còn là một chặng đường dài phía trước.             
