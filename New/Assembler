@@ -10,6 +10,7 @@
       mstore(add(clone, 0x28), 0x5af43d82803e903d91602b57fd5bf30000000000000000000000000000000000)
       => // Sử dụng opcode 'msto re' để
          // lưu trữ 'c' trong bộ nhớ
+         
          // tại địa chỉ bộ nhớ 0x80
 +0x00 decode => false  => encode => 0x00
 +0x01 decode => true   => decode => 0x00

@@ -1,0 +1,6 @@
+Validator: + Trình xác thực blockchain là người chịu trách nhiệm xác minh các giao dịch trên blockchain.
+           Khi các giao dịch được xác minh, chúng sẽ được thêm vào sổ cái phân tán. 
+           + Người xác thực là một thực thể mới trên Chuỗi khối thực hiện công việc của nhóm đồng
+             thuận bao gồm xác minh các giao dịch và thêm các khối mới vào chuỗi khối.
+           + Người xác nhận là những người vận hành nút, mỗi người lưu trữ một bản sao của chuỗi khối và
+             phải thực hiện các chức năng nhất định để giữ an toàn cho hệ thống.
