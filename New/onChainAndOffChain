@@ -1,0 +1,4 @@
+onChain => Là gửi bên trong một hệ thống
+    Mình có một số token trong ví của mình mà mình muốn gửi số token đó qua ví 
+    của tài khoảng khác thì gọi là offChain => gửi cùng một hệ thống với nhau 
+ofChain là mình gửi số token của mình sang các sàn giao dịch như (uniswap, sushiswap, pancakeswap, binance) =>     
